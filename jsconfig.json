@@ -1,0 +1,13 @@
+{
+    "compilerOptions": {
+        "baseUrl":"./",
+        "paths":{
+            "@/*":[
+                "src/*"
+            ]
+        },
+        "types": ["element-plus/global"]
+    }
+}
+
+// 输入@，自动联想到src目录
