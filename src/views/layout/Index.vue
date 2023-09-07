@@ -1,4 +1,11 @@
+<script setup>
+    import LayoutNav from '@/views/layout/components/LayoutNav.vue'
+    import LayoutHeader from '@/views/layout/components/LayoutHeader.vue'
+    import LayoutFooter from '@/views/layout/components/LayoutFooter.vue'
+</script>
 <template>
-    <div>主界面</div>
+    <LayoutNav/>
+    <LayoutHeader/>
     <RouterView/>
+    <LayoutFooter/>
 </template>
